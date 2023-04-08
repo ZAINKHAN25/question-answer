@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    color: #c59d5f;
+    font-family: Dancing Script;
+    font-size: 5vw;
+    margin-top: 0vh;
+    font-weight: 500;
+    margin-bottom: 10vh;
+    margin-top: -20vh;
+}
+
+
+.question{
+    /* z-index: 1; */
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    background-color: white;
+    margin: 2vh;
+    padding: 3vh 2vw;
+    border-radius: 1vw;
+    font-size: 2vw;
+    box-shadow: 1vw 1vh 1vw 1vh rgb(212, 212, 212);
+    font-family: sans-serif;
+}
+
+.plussign{
+    color: #c59d5f;
+    border: .2vw solid #c59d5f;
+    padding: .4vh .4vw;
+    transition: .4s ease-in-out;
+}
+
+.plussign:hover{
+    transform: rotate(90deg);
+}
+
+.answer{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    flex-direction: column;
+    background-color: white;
+    margin: 2vh;
+    padding: 3vh 2vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    font-size: 1.5vw;
+    box-shadow: 1vw 1vh 1vw 0vh rgb(212, 212, 212);
+    font-family: sans-serif;
+    position: relative;
+    margin-top: -3vh;
+    color: lightskyblue;
+    transition: 1s ease-in-out;
+}
+
+.answerchotabhai{
+    width: 55vw;
+    border-top: .5vh solid black;
+    padding: 2vh;
+}
+
+.none{
+    display: none;
+}
